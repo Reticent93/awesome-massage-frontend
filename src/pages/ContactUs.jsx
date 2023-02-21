@@ -4,7 +4,7 @@ import {useNavigate} from "react-router-dom";
 const ContactUs = () => {
     const navigate = useNavigate();
     return (
-        <div className="container w-100 d-flex">
+        <div className="container d-flex">
             <div className='w-50 p-5'>
             <h3>Get In Touch!</h3>
             <p>Openly has made me feel supported & valued as an employee. The company culture empowers me to make
@@ -12,7 +12,7 @@ const ContactUs = () => {
                 apart of something great.</p>
             <button type="button" className="btn btn-primary" onClick={() => navigate("/")}>Home</button>
             </div>
-            <div className="row w-50 shadow-lg p-5 mb-5 bg-body-tertiary rounded ">
+            <div className="row shadow-lg p-5 mb-5 bg-body-tertiary rounded ">
 
                 <h2>Contact Us</h2>
                 <form className="" action="" method="POST">

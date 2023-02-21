@@ -1,8 +1,10 @@
 import React from 'react';
 
+
 const Home = () => {
     return (
-        <div>
+
+        <div className='container m-5 min-vh-100'>
                     <h2>Home</h2>
                     <p>Home is where the heart is. Home is where you can relax and be yourself. Home is where you can be
                         comfortable and enjoy the company of your family and friends. Home is where you can be yourself

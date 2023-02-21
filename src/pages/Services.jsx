@@ -3,11 +3,21 @@ import deeptissue from '../images/deep-tissue.jpg'
 import hotstone from '../images/hot-stone.jpg'
 import lymphatic from '../images/lymphatic.jpg'
 import therapeutic from '../images/therapeutic.jpg'
+import breakingpic from '../images/breakingpic.jpg'
 
 const Services = () => {
     return (
-        <div>
-            <h3>Services offered at Awesome Massage</h3>
+        <div className='container'>
+            <div className="d-flex bg-success-subtle p-3">
+                <div className='d-flex w-25 container-fluid' style={{backgroundImage: ('../images/breakingpic.jpg')}}>
+                {/*<img src={breakingpic} alt='breakingpic' className='rounded mx-auto img-fluid'  />*/}
+                <button type="button" className="btn btn-outline-info bg-info-subtle btn-lg text-dark-50 position-absolute" >Book An Appointment</button>
+                </div>
+                <div>
+            <h3 className='text-white'>Services offered at Awesome Massage</h3>
+                <h6 className='text-white'>These are the services offered at Awesome Massage</h6>
+                </div>
+            </div>
             <div className="row justify-content-around  mx-auto">
                 <div className="card p-0" style={{width: "18rem"}}>
                 <img src={therapeutic} alt='therapeutic' className='card-img-top'  />

@@ -4,30 +4,32 @@ import './App.css'
 import Home from './Home'
 import Massage from './Massage'
 import ContactUs from "./ContactUs.jsx";
-import About from "./About.jsx";
+import Team from "./Team.jsx";
 import NotFound from "./NotFound.jsx";
 import Nav from "./Nav.jsx";
 import Services from "./Services.jsx";
+import Footer from "./Footer.jsx";
 
 function App() {
     const [count, setCount] = useState(0)
 
     return (
-        <>
+        <div>
             <Nav />
-        <div className="container">
-            <div className="row">
+        <div >
+            <div className="row mh-100">
                 <Routes>
                     <Route path="/" element={<Home/>}/>
                     <Route path="massage" element={<Massage/>}/>
-                    <Route path="about" element={<About/>}/>
+                    <Route path="team" element={<Team/>}/>
                     <Route path="services" element={<Services/>}/>
                     <Route path="contact" element={<ContactUs/>}/>
                     <Route path="*" element={<NotFound/>}/>
                 </Routes>
             </div>
+            <Footer />
         </div>
-        </>
+        </div>
     )
 }
 
