@@ -5,6 +5,7 @@ import Home from './Home'
 import Massage from './Massage'
 import ContactUs from "./ContactUs.jsx";
 import Team from "./Team.jsx";
+import Book from "./Book.jsx";
 import NotFound from "./NotFound.jsx";
 import Nav from "./Nav.jsx";
 import Services from "./Services.jsx";
@@ -24,6 +25,7 @@ function App() {
                     <Route path="team" element={<Team/>}/>
                     <Route path="services" element={<Services/>}/>
                     <Route path="contact" element={<ContactUs/>}/>
+                    <Route path="book" element={<Book/>}/>
                     <Route path="*" element={<NotFound/>}/>
                 </Routes>
             </div>

@@ -4,6 +4,7 @@ import candles from '../images/candles.jpg';
 import jessica from '../images/jessica.jpg';
 import shane from '../images/shane.jpg';
 import sarah from '../images/sarah.jpg';
+import {Link} from "react-router-dom";
 
 
 const Team = () => {
@@ -34,7 +35,7 @@ const Team = () => {
                         Techniques such as Reiki. Jessica has 3 decades of Reiki experience. Reiki is an
                         energy modality where the Practitioner sends Universal Healing Energy to the Receiver relaxing
                         both the body and mind.</p>
-                    <button type="button" className="btn btn-outline-info bg-info-subtle btn-lg text-dark-50 p-2" >Book An Appointment</button>
+                    <Link to='/book' type="button" className="btn btn-outline-info bg-info-subtle btn-lg text-dark-50 p-2" >Book An Appointment</Link>
                 </div>
                 <div className="col-3 text-center justify-content-center">
                     <img src={shane} alt="shane" className="rounded img-fluid" style={{height: '350px'}}/>
@@ -44,7 +45,7 @@ const Team = () => {
                         dolor sit amet consectetur adipiscing elit ut aliquam. Sed adipiscing diam donec adipiscing
                         tristique risus nec. Pharetra et ultrices neque ornare aenean euismod. Interdum velit laoreet id
                         donec ultrices tincidunt.</p>
-                    <button type="button" className="btn btn-outline-info bg-info-subtle btn-lg text-dark-50 p-2" >Book An Appointment</button>
+                    <Link to='book' type="button" className="btn btn-outline-info bg-info-subtle btn-lg text-dark-50 p-2" >Book An Appointment</Link>
 
                 </div>
                 <div className="col-3 text-center justify-content-center">
@@ -55,7 +56,7 @@ const Team = () => {
                         dolor sit amet consectetur adipiscing elit ut aliquam. Sed adipiscing diam donec adipiscing
                         tristique risus nec. Pharetra et ultrices neque ornare aenean euismod. Interdum velit laoreet id
                         donec ultrices tincidunt.</p>
-                    <button type="button" className="btn btn-outline-info bg-info-subtle btn-lg text-dark-50 p-2" >Book An Appointment</button>
+                    <Link to='book' type="button" className="btn btn-outline-info bg-info-subtle btn-lg text-dark-50 p-2" >Book An Appointment</Link>
 
                 </div>
             </div>
