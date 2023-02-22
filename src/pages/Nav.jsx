@@ -3,8 +3,8 @@ import {Link} from "react-router-dom";
 
 const Nav = () => {
     return (
-        <div className="container pb-5">
-        <ul className="nav justify-content-end">
+        <div className="bg-success-subtle">
+        <ul className="nav justify-content-end p-3">
             <li className="nav-item">
                 <Link to="/" className="nav-link active" aria-current="page">Home</Link>
             </li>
